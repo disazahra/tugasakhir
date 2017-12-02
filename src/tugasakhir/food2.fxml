@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="814.0" style="-fx-background-color: #b3e6ff;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Food2Controller">
+   <children>
+      <CheckBox fx:id="pizza" layoutX="7.0" layoutY="91.0" mnemonicParsing="false" text="Pizza" textFill="#281919">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="mie" layoutX="7.0" layoutY="163.0" mnemonicParsing="false" text="Spaghetti" textFill="#281919">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="burger" layoutX="7.0" layoutY="236.0" mnemonicParsing="false" text="Hamburger" textFill="#281919">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="kentang" layoutX="7.0" layoutY="304.0" mnemonicParsing="false" text="French Fries" textFill="#281919">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <ImageView fitHeight="86.0" fitWidth="97.0" layoutX="83.0" layoutY="62.0">
+         <image>
+            <Image url="@../gambar/piz.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="110.0" layoutX="117.0" layoutY="154.0">
+         <image>
+            <Image url="@../gambar/spa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="90.0" layoutX="144.0" layoutY="207.0">
+         <image>
+            <Image url="@../gambar/bur.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="73.0" layoutX="144.0" layoutY="288.0">
+         <image>
+            <Image url="@../gambar/ken.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="20.0" layoutY="14.0" prefHeight="42.0" prefWidth="223.0" text="      FOOD MENU'S" textFill="#f57676">
+         <font>
+            <Font name="Bodoni Bd BT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="20.0" prefHeight="30.0" prefWidth="205.0" text="DESSERT MENU'S" textFill="#f87878">
+         <font>
+            <Font name="Bodoni Bd BT Bold" size="24.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="cupcake" layoutX="459.0" layoutY="96.0" mnemonicParsing="false" text="CupCake">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="cake" layoutX="459.0" layoutY="162.0" mnemonicParsing="false" text="Cake">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="es" layoutX="459.0" layoutY="236.0" mnemonicParsing="false" text="Ice Cream">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="jelly" layoutX="459.0" layoutY="304.0" mnemonicParsing="false" text="Pudding">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <ImageView fitHeight="59.0" fitWidth="82.0" layoutX="571.0" layoutY="72.0">
+         <image>
+            <Image url="@../gambar/cup.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="82.0" layoutX="546.0" layoutY="146.0">
+         <image>
+            <Image url="@../gambar/cakee.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="57.0" layoutX="602.0" layoutY="216.0">
+         <image>
+            <Image url="@../gambar/es.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="82.0" layoutX="561.0" layoutY="288.0">
+         <image>
+            <Image url="@../gambar/pudd.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="347.0" layoutY="-5.0" orientation="VERTICAL" prefHeight="408.0" prefWidth="49.0" style="-fx-background-color: #4dd2ff;" />
+      <Button fx:id="btnBack" layoutX="730.0" layoutY="364.0" mnemonicParsing="false" onAction="#next" style="-fx-background-color: #993366;" text="BACK" textFill="WHITE" />
+      <Label fx:id="harga2" layoutX="243.0" layoutY="181.0" text="25000" />
+      <Label fx:id="harga3" layoutX="243.0" layoutY="258.0" text="25000" />
+      <Label fx:id="harga4" layoutX="229.0" layoutY="339.0" text="25000" />
+      <Label fx:id="harga5" layoutX="659.0" layoutY="125.0" text="25000" />
+      <Label fx:id="harga8" layoutX="659.0" layoutY="318.0" text="25000" />
+      <Label fx:id="harga1" layoutX="218.0" layoutY="101.0" text="25000" />
+      <Label fx:id="harga6" layoutX="637.0" layoutY="181.0" text="25000" />
+      <Label fx:id="harga7" layoutX="659.0" layoutY="267.0" text="25000" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="791.0" style="-fx-background-color: #993366;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.FXMLLoginController">
+   <children>
+      <AnchorPane layoutX="498.0" layoutY="14.0" prefHeight="354.0" prefWidth="272.0" style="-fx-background-color: white;">
+         <effect>
+            <DropShadow color="#7cc2dd" />
+         </effect>
+         <children>
+            <ImageView fitHeight="120.0" fitWidth="130.0" layoutX="71.0" layoutY="14.0">
+               <image>
+                  <Image url="@../gambar/icon.png" />
+               </image>
+            </ImageView>
+            <JFXTextField id="InUser" fx:id="InUser" focusColor="#e74c3c" layoutX="24.0" layoutY="148.0" maxWidth="244.0" minWidth="224.0" prefHeight="43.0" prefWidth="224.0" style="-fx-background-color: white;" unFocusColor="#f5f3f3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField id="InPass" fx:id="InPass" focusColor="#e74c3c" layoutX="34.0" layoutY="204.0" maxWidth="204.0" minWidth="204.0" prefHeight="43.0" prefWidth="204.0" style="-fx-background-color: white;" unFocusColor="#f5f3f3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton id="btnLogin" fx:id="btnLogin" layoutX="34.0" layoutY="277.0" onAction="#handleButtonAction" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: #33cccc;" text="Login" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="79.0" fitWidth="332.0" layoutX="57.0" layoutY="33.0">
+         <image>
+            <Image url="@../gambar/chati.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="20.0" layoutY="344.0" prefHeight="17.0" prefWidth="288.0" text="\@chatime_id" textFill="WHITE" />
+      <Separator layoutX="14.0" layoutY="352.0" prefHeight="33.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
